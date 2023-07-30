@@ -1,0 +1,11 @@
+pytesseract
+cv2
+numpy
+tarfile
+PIL
+matplotlib
+random
+os
+sklearn
+math
+easyocr
