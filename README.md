@@ -1,4 +1,4 @@
-![Detector-Model-Training-SVM-Classifier-with-the-HOG-Feature-for-Automobiles-and](https://github.com/kwanit1142/Computer-Vision-on-different-scenarios/assets/54277039/273196d3-5978-4f58-89a9-bd835c3e94dc)![Detector-Model-Training-SVM-Classifier-with-the-HOG-Feature-for-Automobiles-and](https://github.com/kwanit1142/Computer-Vision-on-different-scenarios/assets/54277039/0e48f99b-46b7-41f7-9b93-00f3256f8549)# Computer Vision on different scenarios
+# Computer Vision on different scenarios
 
 These Notebooks with their Question Statement and Reports, came under the course CSL7360, taken by Prof. Anand Mishra.
 
