@@ -2,7 +2,7 @@
 
 These Notebooks with their Question Statement and Reports, came under the course CSL7360, taken by Prof. Anand Mishra.
 
-##Lab-1 (Image Processing and Traditional Methods)
+## Lab-1 (Image Processing and Traditional Methods)
 
 Question-1
 
@@ -76,7 +76,7 @@ Question-10
 
 You will be given an image of a mobile number. Use Off-the-shell OCR and find out the last 3 digits of the mobile number.
 
-##Lab-2 (Feature Descriptors)
+## Lab-2 (Feature Descriptors)
 
 Question-1
 
@@ -114,7 +114,7 @@ Question-6
 
 Write down steps to stitch images to create the panorama. Use the 3 Taj Mahal Images provided with this assignment to create one panaroma. Show panaroma into one.
 
-##Lab-3 (SOTA Non-DL Methods)
+## Lab-3 (SOTA Non-DL Methods)
 
 Question-1
 
@@ -132,7 +132,7 @@ Question-4
 
 You are given a few deer train images with this assignment. Manually crop them to find out tight bounding boxes for Deer and also obtain some non-deer image patches of different sizes and aspect ratios. Compute HOG feeatures for deer and non-deer image patches and build an SVM classifier to classify deer v/s non-deer. Now, implement a sliding window object detection to find out the deer in the test images. Write down each step in the report. Also, objectively evaluate your detection performance.
 
-##Lab-4 (Advanced Computer Vision Models)
+## Lab-4 (Advanced Computer Vision Models)
 
 Question-1
 
