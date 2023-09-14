@@ -113,3 +113,53 @@ What is stereo matching? Write down 3 applications of stereo matching. You can u
 Question-6
 
 Write down steps to stitch images to create the panorama. Use the 3 Taj Mahal Images provided with this assignment to create one panaroma. Show panaroma into one.
+
+##Lab-3 (SOTA Non-DL Methods)
+
+Question-1
+
+Use the subset of the LFW dataset provided with this assignment, include 1 face photograph of your favourite Indian sportsperson from the web to augment the dataset, and implement EigenFace Recognition from scratch. You may use the PCA library, but other functionalities should be originally written. Show top-K Eigen's Faces of the favourite Indian sportsperson you consindered in for different values of K. The report should also contain a detailed quantitative and qualitative analysis (Use provided data as train set and a test set will be provided separately).
+
+Question-2
+
+Develop an Image Search Engine for CIFAR-10 that takes the image as a query and retrieves top-5 similar images using Visual BOW. Report Precision, Recall and AP. Draw the P-R Curve. Write down each step of implementation in clear and precise terms with an appropriate illustration.
+
+Question-3
+
+Write down Viola Jone's Face detection steps in detail.
+
+Question-4
+
+You are given a few deer train images with this assignment. Manually crop them to find out tight bounding boxes for Deer and also obtain some non-deer image patches of different sizes and aspect ratios. Compute HOG feeatures for deer and non-deer image patches and build an SVM classifier to classify deer v/s non-deer. Now, implement a sliding window object detection to find out the deer in the test images. Write down each step in the report. Also, objectively evaluate your detection performance.
+
+##Lab-4 (Advanced Computer Vision Models)
+
+Question-1
+
+Perform image classification using CNN on the MNIST dataset. Follow the standard train and test split. Design an 8-Layer CN Network (Choose your architecture, ex. filter size, number of channels, padding, activations, etc.). Perform the following tasks:-
+
+a.) Show the calculation of output filter size at each layer of CNN.
+
+b.) Calculate the number of parameters in your CNN. Calculation steps should be clearly shown in the report.
+
+c.) Report the following on test data:- (Should be implemented from scratch)
+
+1. Confusion Matrix
+2. Overall and Classwise accuracy
+3. ROC Curve (You can choose one class as positive and the rest classes as negative)
+
+d.) Report Loss curve during training
+
+e.) Replace your CNN with resnet18 and compare it with all metrics given in part 3. Comment on the final performance of your CNN and resnet18.
+
+Question-2
+
+Download the Flicker8k dataset [images, captions]. Implement an encoder-decoder architecture for Image Captioning. For the encoder and decoder, you can use resnet/densenet/VGG and LSTM/RNN/GRU respectively. Perform the following tasks:-
+
+a.) Split the dataset into train and test sets appropriately. You can further split the train set for validation. Train your model on the train set. Report loss curve during training.
+
+b.) Choose an existing evaluation metric or propose your metric to evaluate your model. Specify the reason behind your selection/proposal of the metric. Report the final results on the test set.
+
+Question-3
+
+Use the dataset from Assignment-3 (Q4). Train YOLO object detection model (any version) on the train set. Compute the AP for the test set and compare the result with the HOG Detector. Show some visual results and compare both of the methods.
